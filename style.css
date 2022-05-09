@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    justify-items: stretch;
+}
+
+header{
+    background-color: rgb(221, 212, 212);
+}
+
+.header-flex{
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+    width: 70%;
+    margin: 10px auto;
+}
+
+.head-itemssx, .head-itemsdx{
+    background-color: rgb(255, 213, 0);
+    flex-grow: 1;
+    border: 1px solid;
+    padding: 10px;
+}
+
+.head-itemsdx
+{
+    text-align: end;
+}
+
+.head-itemscnt{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 213, 0);
+    flex-grow: 3;
+    border: 1 solid black;
+    padding: 10px;
+    border: 1px solid;
+}
+
+a{
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    align-items: center;
+}
+
+main section{
+    width: 100%;
+}
+
+.block{
+    border: 1px solid;
+    margin: 10px auto;
+    background-color: violet;
+    width: 50%;
+    height: 100px;  /* Le misure sono indicative, essendo che per il momento non abbiamo elementi da inserire.
+    Quindi, per vedere a schermo il blocco, è necessario dargli un'altezza indicativa! */
+}
+
+.section-2{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+}
+
+.section-2-item-blue{
+    background-color: rgb(0, 128, 255);
+    width: 35%;
+    height: 100px;
+    border: 1px solid;
+    margin: 10px 0 10px 0;
+}
+
+.section-2-item-pink{
+    background-color: pink;
+    width: 15%;
+    height: 100px;
+    border: 1px solid;
+    margin: 10px 0 10px 0;
+}
+
+
+.section-3{
+    background-color: rgb(193, 190, 190);;
+}
+.section-3 .block{
+    background-color: green;
+    width: 50%;
+    height: 300px;
+}
