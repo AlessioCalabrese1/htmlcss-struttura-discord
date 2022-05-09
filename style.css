@@ -78,7 +78,7 @@ main section{
 
 .section-2-item-blue{
     background-color: rgb(0, 128, 255);
-    width: 35%;
+    width: 50%;
     height: 200px;
     border: 1px solid;
     margin: 20px 0 20px 0;
@@ -86,7 +86,7 @@ main section{
 
 .section-2-item-pink{
     background-color: pink;
-    width: 15%;
+    width: 20%;
     height: 200px;
     border: 1px solid;
     margin: 20px 0 20px 0;
@@ -98,7 +98,7 @@ main section{
 }
 .section-3 .block{
     background-color: green;
-    width: 50%;
+    width: 70%;
     height: 400px;
 }
 
@@ -110,7 +110,7 @@ main section{
 }
 
 .section-4-items-brown{
-    width: 15%;
+    width: 20%;
     background-color: brown;
     margin: 20px 0 20px 0;
     border: 1px solid;
@@ -118,7 +118,7 @@ main section{
 
 .section-4-items-light-blue{
     display: flex;
-    flex-basis: 35%;
+    flex-basis: 50%;
     margin: 20px 0 20px 0;;
     background-color: aquamarine;
 }
@@ -136,7 +136,7 @@ footer{
 
 .footer-flex{
     display: flex;
-    width: 50%;
+    width: 70%;
     margin: 10px auto;
     justify-content: space-between;
     background-color: aquamarine;
