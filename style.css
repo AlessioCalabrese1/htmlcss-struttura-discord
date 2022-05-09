@@ -20,7 +20,7 @@ header{
     justify-content: center;
     background-color: brown;
     width: 70%;
-    margin: 10px auto;
+    margin: 20px auto;
 }
 
 .head-itemssx, .head-itemsdx{
@@ -63,10 +63,10 @@ main section{
 
 .block{
     border: 1px solid;
-    margin: 10px auto;
+    margin: 20px auto;
     background-color: violet;
     width: 50%;
-    height: 100px;  /* Le misure sono indicative, essendo che per il momento non abbiamo elementi da inserire.
+    height: 200px;  /* Le misure sono indicative, essendo che per il momento non abbiamo elementi da inserire.
     Quindi, per vedere a schermo il blocco, è necessario dargli un'altezza indicativa! */
 }
 
@@ -79,17 +79,17 @@ main section{
 .section-2-item-blue{
     background-color: rgb(0, 128, 255);
     width: 35%;
-    height: 100px;
+    height: 200px;
     border: 1px solid;
-    margin: 10px 0 10px 0;
+    margin: 20px 0 20px 0;
 }
 
 .section-2-item-pink{
     background-color: pink;
     width: 15%;
-    height: 100px;
+    height: 200px;
     border: 1px solid;
-    margin: 10px 0 10px 0;
+    margin: 20px 0 20px 0;
 }
 
 
@@ -99,5 +99,52 @@ main section{
 .section-3 .block{
     background-color: green;
     width: 50%;
-    height: 300px;
+    height: 400px;
+}
+
+.section-4{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    height: 500px;
+}
+
+.section-4-items-brown{
+    width: 15%;
+    background-color: brown;
+    margin: 20px 0 20px 0;
+    border: 1px solid;
+}
+
+.section-4-items-light-blue{
+    display: flex;
+    flex-basis: 35%;
+    margin: 20px 0 20px 0;;
+    background-color: aquamarine;
+}
+
+.section-4-items-light-blue > div{
+    flex-basis: calc(100% / 4);
+    border: 1px solid white;
+}
+
+footer{
+    border-top: 1px solid grey;
+    background-color: black;
+    
+}
+
+.footer-flex{
+    display: flex;
+    width: 50%;
+    margin: 10px auto;
+    justify-content: space-between;
+    background-color: aquamarine;
+    padding: 10px 0 10px 0;
+}
+
+.footer-flex button{
+    background-color: pink;
+    border: 1px solid;
+    padding: 5px;
 }
